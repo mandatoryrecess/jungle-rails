@@ -133,4 +133,26 @@ cat3.products.create!({
 })
 
 
+user1 = User.create! ({
+  first_name: 'molly',
+  last_name: 'molly',
+  email: 'molly@molly.com',
+  password_digest: BCrypt::Password.create('molly')
+})
+
+user2 = User.create! ({
+  first_name: 'joe',
+  last_name: 'joe',
+  email: 'joe@joe.com',
+  password_digest: BCrypt::Password.create('joe')
+})
+
+user3 = User.create! ({
+  first_name: 'jack',
+  last_name: 'jack',
+  email: 'jack@jack.com',
+  password_digest: BCrypt::Password.create('jack')
+})
+
+
 puts "DONE!"
