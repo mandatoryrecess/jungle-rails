@@ -3,7 +3,6 @@ require 'rails_helper'
 
 RSpec.describe Product, type: :model do
 
-    let(:category) { Category.create(name: "Home Decor") }
 
     subject { Product.new(
                   name: "Lamp",
@@ -12,16 +11,20 @@ RSpec.describe Product, type: :model do
                   category: category
               )}
 
+    let(:category) { Category.create(name: "Home Decor") }
+
+  it "is valid with all fields" do
+    expect(subject).to be_valid
+  end
+
   describe 'Validations' do
     it "is not valid without a valid name" do
       subject.name = nil
-      puts subject.name
       expect(subject).to_not be_valid
     end
 
     it "is not valid with a valid price" do
       subject.price_cents = nil
-      puts subject.price_cents
       expect(subject).to_not be_valid
     end
 
@@ -32,14 +35,7 @@ RSpec.describe Product, type: :model do
 
     it "is valid with a valid category" do
       subject.category = nil
-      puts category.id
-      puts category.name
       expect(subject).to_not be_valid
-    end
-
-    it "is valid with valid attributes" do
-      puts subject.category.name
-      expect(subject).to be_valid
     end
 
   end
