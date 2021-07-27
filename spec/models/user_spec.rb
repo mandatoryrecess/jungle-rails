@@ -13,7 +13,6 @@ RSpec.describe User, type: :model do
     end
 
 # Password Validation 
-puts "password validation"
 
     it "is not valid when password and password_confirmation are not matching" do
       subject.password = "xxxx"

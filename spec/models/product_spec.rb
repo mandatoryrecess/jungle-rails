@@ -8,10 +8,8 @@ RSpec.describe Product, type: :model do
                   name: "Lamp",
                   price_cents: 500,
                   quantity: 4,
-                  category: category
+                  category: "Home Decor"
               )}
-
-    let(:category) { Category.create(name: "Home Decor") }
 
   it "is valid with all fields" do
     expect(subject).to be_valid
