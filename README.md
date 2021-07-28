@@ -5,7 +5,8 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 ## Images 
 !['Admin Categories'](https://github.com/mandatoryrecess/jungle-rails/blob/8c95c32ce9357e83119941a0f2a2428496d9317c/docs/admin_categories.png)
 !['Individual Product Page'](https://github.com/mandatoryrecess/jungle-rails/blob/8c95c32ce9357e83119941a0f2a2428496d9317c/docs/individual_product_page.png)
-!['My Cart](https://github.com/mandatoryrecess/jungle-rails/blob/8c95c32ce9357e83119941a0f2a2428496d9317c/docs/my_cart.png)
+!['My Cart'](https://github.com/mandatoryrecess/jungle-rails/blob/8c95c32ce9357e83119941a0f2a2428496d9317c/docs/my_cart.png)
+!['Products Page'](https://github.com/mandatoryrecess/jungle-rails/blob/363d6870e5e9ccd8086418fbbf94792659134a14/docs/products_page.png)
 
 ## Setup
 
