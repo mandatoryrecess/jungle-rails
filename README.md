@@ -2,12 +2,10 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
-<!-- ## Additional Steps for Apple M1 Machines
-
-1. Make sure that you are runnning Ruby 2.6.6 (`ruby -v`)
-1. Install ImageMagick `brew install imagemagick imagemagick@6 --build-from-source`
-2. Remove Gemfile.lock
-3. Replace Gemfile with version provided [here](https://gist.githubusercontent.com/FrancisBourgouin/831795ae12c4704687a0c2496d91a727/raw/ce8e2104f725f43e56650d404169c7b11c33a5c5/Gemfile) -->
+## Images 
+!['Admin Categories'](https://github.com/mandatoryrecess/jungle-rails/blob/8c95c32ce9357e83119941a0f2a2428496d9317c/docs/admin_categories.png)
+!['Individual Product Page'](https://github.com/mandatoryrecess/jungle-rails/blob/8c95c32ce9357e83119941a0f2a2428496d9317c/docs/individual_product_page.png)
+!['My Cart](https://github.com/mandatoryrecess/jungle-rails/blob/8c95c32ce9357e83119941a0f2a2428496d9317c/docs/my_cart.png)
 
 ## Setup
 
